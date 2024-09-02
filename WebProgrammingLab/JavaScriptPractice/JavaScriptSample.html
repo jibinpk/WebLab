@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program Using JavaScript</title>
+    <script type="text/javascript">
+        document.writeln(
+            "<h1> Welcome to JavaScript Programming</h1>"
+        );
+    </script>
+</head>
+<body>
+    <script>
+        // var name;
+        // name = window.prompt("please enter your name");
+        // document.writeln("<h1>Hello " + name + ",Welcome to javascript programming </h1>");
+        // window.alert("Hello " + name);
+        var x, y, z, result;
+        var xval, yval, xval;
+        xval = window.prompt("enter the first integer:");
+        yval = window.prompt("enter the second interger:");
+        zval = window.prompt("enter the third interger:");
+
+        x = parseInt(xval);
+        y = parseInt(yval);
+        z = parseInt(zval);
+        result = x*y*z;
+        if( result >= 30)
+        document.writeln("<p>Greater than 35</p>");
+        else
+        document.writeln("<p>Less than 35</p>")
+        document.writeln( result >= 40 ? "passed" : "failed");
+        document.writeln("<h1>The product is " + result + "</h1>");
+    </script>
+</body>
+</html>
